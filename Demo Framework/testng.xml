@@ -1,0 +1,8 @@
+
+<suite name="Automationsuite">
+  <test  name="RegressionTest">
+  <package>	
+  <package name="script"/>
+  </package>
+  </test> 
+</suite> 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[RC:0]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4295" started-at="2018-12-09T11:21:57Z" finished-at="2018-12-09T11:22:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4295" started-at="2018-12-09T11:21:57Z" finished-at="2018-12-09T11:22:01Z">
+      <class name="script.InvaildLogin">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvaildLogin@86be70a]" name="openApp" is-config="true" duration-ms="3470" started-at="2018-12-09T11:21:57Z" finished-at="2018-12-09T11:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvaildLogin()[pri:2, instance:script.InvaildLogin@86be70a]" name="testInvaildLogin" duration-ms="759" started-at="2018-12-09T11:22:01Z" finished-at="2018-12-09T11:22:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[RC:0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvaildLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvaildLogin@86be70a]" name="closeApp" is-config="true" duration-ms="47" started-at="2018-12-09T11:22:01Z" finished-at="2018-12-09T11:22:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvaildLogin status=SUCCESS method=InvaildLogin.testInvaildLogin()[pri:2, instance:script.InvaildLogin@86be70a] output=RC:0]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="print()[pri:0, instance:script.InvaildLogin@86be70a]" name="print" is-config="true" duration-ms="203" started-at="2018-12-09T11:22:01Z" finished-at="2018-12-09T11:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+      </class> <!-- script.InvaildLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
